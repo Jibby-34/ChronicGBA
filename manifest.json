@@ -1,24 +1,21 @@
 {
-  "background_color": "#ffffff",
-  "description": "GBA emu",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "GBA PWA",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "GBA PWA",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "categories": [
-    "games"
-  ],
-  "screenshots": [],
-  "icons": [],
-  "shortcuts": [
+  "short_name": "GBA",
+  "name": "GBA Emulator",
+  "icons": [
     {
-      "name": " Main Page",
-      "url": "https://jibby-34.github.io",
-      "description": "Goes to home"
+      "src": "icons/192Icon.pmg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/512Icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
-  ]
+  ],
+  "start_url": "https://jibby-34.github.io",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#3367D6",
+  "description": "GBA Emulator"
 }
