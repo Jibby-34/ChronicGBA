@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "description": "GBA emu",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "GBA PWA",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "GBA PWA",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "games"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [
+    {
+      "name": " Main Page",
+      "url": "https://jibby-34.github.io",
+      "description": "Goes to home"
+    }
+  ]
+}
