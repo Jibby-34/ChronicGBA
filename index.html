@@ -68,6 +68,18 @@
         <link rel="stylesheet" href="user_css/main.css">
     </head>
     <body>
+        <script>
+            if ('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('serviceworker/service-worker.js')
+                .then(registration => {
+                  console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch(error => {
+                  console.error('Service Worker registration failed:', error);
+                });
+            }
+          </script>
+          
         <div id="container">
             <div id="menu" class="paused">
                 <ul class="menu" id="menu_top">
@@ -231,13 +243,5 @@
             </div>
             <span class="message" id="tempMessage"></span>
         </div>
-
-        <!-- Install button, hidden by default -->
-        <div id="installContainer" class="hidden">
-            <button id="butInstall" type="button">Install</button>
-        </div>
-
-        <script src="/script.js" defer></script>
-
     </body>
 </html>
