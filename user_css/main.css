@@ -116,8 +116,8 @@ div#menu {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background: #ce9393;
-    background: #ffffff;
+    background: #363636;
+    color: #fff;
     border-bottom: 1px solid rgba(0,0,0,.1);
     transition: .3s ease;
 	cursor: pointer;
@@ -135,7 +135,7 @@ div#menu {
     top:100%;
     left:0;
     color: #fff;
-    background-color: rgb(94, 88, 88);
+    background-color: #363636;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
     transition: .3s ease;
     z-index: 1;
