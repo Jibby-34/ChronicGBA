@@ -26,8 +26,6 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: gray;
-    text-decoration-color: white;
 }
 
 #container {
@@ -116,7 +114,7 @@ div#menu {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background: #fff;
+    background: #ce9393;
     border-bottom: 1px solid rgba(0,0,0,.1);
     transition: .3s ease;
 	cursor: pointer;
