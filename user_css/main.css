@@ -114,10 +114,28 @@ div#menu {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background: #ce9393;
+    background: #ffffff;
     border-bottom: 1px solid rgba(0,0,0,.1);
     transition: .3s ease;
 	cursor: pointer;
+}
+
+/* Dark Theme */
+.menu.dark {
+    background: #333;
+    color: #fff;
+}
+
+/* Light Theme */
+.menu.light {
+    background: #ecd4d4;
+    color: #000;
+}
+
+/* Pink Theme */
+.menu.pink {
+    background: #ff77aa;
+    color: #fff;
 }
 
 /* auto hide menu while playing */
